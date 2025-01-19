@@ -3,7 +3,7 @@ import { sortImportStatements } from "./sortImports";
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    "import-sorter.sortImports",
+    "imports-organizer.organizeImports",
     () => {
       const editor = vscode.window.activeTextEditor;
 
