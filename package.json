@@ -7,6 +7,8 @@
     "url": "https://github.com/sabine33/Organize-Imports-by-Category"
   },
   "publisher": "SabinKhanal",
+  "icon": "icon.png",
+  "license": "MIT",
   "keywords": [
     "sort imports by category",
     "sort import",
@@ -21,7 +23,7 @@
     "vscode": "^1.96.0"
   },
   "categories": [
-    "Other"
+    "Formatters"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
