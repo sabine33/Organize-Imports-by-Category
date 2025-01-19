@@ -2,7 +2,7 @@
   "name": "organize-imports-by-category",
   "displayName": "Organize imports by category",
   "description": "Helps organize import statements in JavaScript and TypeScript files based on path and category",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/sabine33/Organize-Imports-by-Category"
