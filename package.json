@@ -6,6 +6,13 @@
   "repository": {
     "url": "https://github.com/sabine33/Organize-Imports-by-Category"
   },
+  "publisher": "SabinKhanal",
+  "keywords": [
+    "sort imports by category",
+    "sort import",
+    "organize imports",
+    "import organize"
+  ],
   "author": {
     "name": "sabin khanal",
     "email": "sabin.khanal.33@gmail.com"
