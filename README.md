@@ -1,4 +1,4 @@
-# Imports Organizer
+# Organize imports by category
 
 A Visual Studio Code extension that helps organize import statements in JavaScript and TypeScript files based on path and category. This extension provides a structured way to sort and group your imports, making your code more readable and maintainable.
 
@@ -68,7 +68,7 @@ import styles from './styles.css';
 
 1. Open Visual Studio Code
 2. Press `Ctrl+P` (Windows/Linux) or `Cmd+P` (macOS) to open the Quick Open dialog
-3. Type `ext install imports-organizer`
+3. Type `ext install organize-imports-by-category`
 4. Click Install
 
 ## Usage
@@ -118,7 +118,7 @@ This extension is licensed under the [MIT License](LICENSE).
 
 ## Support
 
-If you encounter any problems or have suggestions, please file an issue on the [GitHub repository](https://github.com/yourusername/imports-organizer).
+If you encounter any problems or have suggestions, please file an issue on the [GitHub repository](https://github.com/sabine33/Organize-Imports-by-Category).
 
 ---
 
