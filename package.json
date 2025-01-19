@@ -3,6 +3,10 @@
   "displayName": "Imports Organizer",
   "description": "Helps organize the imports on js & ts files based on path & category.",
   "version": "0.0.1",
+  "author": {
+    "name": "sabin khanal",
+    "email": "sabin.khanal.33@gmail.com"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
