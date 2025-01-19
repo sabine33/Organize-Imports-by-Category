@@ -1,0 +1,34 @@
+name: Publish VS Code Extension
+
+on:
+  push:
+    tags:
+      - 'v*' # Trigger on versioned tags like v1.0.0
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+
+    - name: Install vsce
+      run: npm install -g @vscode/vsce
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Package Extension
+      run: vsce package
+
+    - name: Publish Extension
+      env:
+        VSCE_PAT: ${{ secrets.AZURE_PUBLISHER_TOKEN }}
+        PUBLISHER_NAME: ${{ secrets.PUBLISHER_NAME }}
+      run: vsce publish
